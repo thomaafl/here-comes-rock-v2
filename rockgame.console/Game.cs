@@ -17,8 +17,10 @@ namespace rockgame.console
             bool choice = Choice();
 
             if (choice) Console.WriteLine("AI time!");
-
+            string move = PickYourMove1();
             CountdownFrom3();
+            Console.WriteLine(move);
+
         }
 
         public bool Choice()
@@ -49,6 +51,31 @@ namespace rockgame.console
                 Thread.Sleep(1000); // Pause for 1 second
             }
             Console.WriteLine("Go!\n");
+        }
+
+        public string PickYourMove1()
+        {
+            
+            Console.WriteLine("\n----------------------------------------------------\n");
+            Console.WriteLine("\n-----------------* Pick your move *-----------------\n");
+            Console.WriteLine("\n    (Rock - R)     (Paper - P)    (Scissors - S)    \n");
+            Console.WriteLine("----------------------------------------------------\n");
+
+            Console.WriteLine("Insert your choice here: ");
+            string yourchoice = Console.ReadLine();
+            Console.WriteLine("\n----------------------------------------------------\n");
+            yourchoice = yourchoice.ToUpper();
+            if (yourchoice == "R" || yourchoice == "P" || yourchoice == "S")
+            {
+                return yourchoice;
+            }
+            else
+            {
+                Console.WriteLine("That was not a valid input, please try again ...");
+                return PickYourMove1();
+            }
+
+
         }
     }
 }
