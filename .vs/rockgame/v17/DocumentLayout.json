@@ -1,12 +1,139 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\TFlier\\source\\repos\\rockv2\\here-comes-rock-v2\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91C2384B-DF09-4AAC-8B13-C5C5ADDE6F6F}|rockgame.console\\rockgame.console.csproj|c:\\users\\tflier\\source\\repos\\rockv2\\here-comes-rock-v2\\rockgame.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91C2384B-DF09-4AAC-8B13-C5C5ADDE6F6F}|rockgame.console\\rockgame.console.csproj|solutionrelative:rockgame.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91C2384B-DF09-4AAC-8B13-C5C5ADDE6F6F}|rockgame.console\\rockgame.console.csproj|c:\\users\\tflier\\source\\repos\\rockv2\\here-comes-rock-v2\\rockgame.console\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91C2384B-DF09-4AAC-8B13-C5C5ADDE6F6F}|rockgame.console\\rockgame.console.csproj|solutionrelative:rockgame.console\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91C2384B-DF09-4AAC-8B13-C5C5ADDE6F6F}|rockgame.console\\rockgame.console.csproj|c:\\users\\tflier\\source\\repos\\rockv2\\here-comes-rock-v2\\rockgame.console\\rockgame.console.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{91C2384B-DF09-4AAC-8B13-C5C5ADDE6F6F}|rockgame.console\\rockgame.console.csproj|solutionrelative:rockgame.console\\rockgame.console.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91C2384B-DF09-4AAC-8B13-C5C5ADDE6F6F}|rockgame.console\\rockgame.console.csproj|c:\\users\\tflier\\source\\repos\\rockv2\\here-comes-rock-v2\\rockgame.console\\players\\imoves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91C2384B-DF09-4AAC-8B13-C5C5ADDE6F6F}|rockgame.console\\rockgame.console.csproj|solutionrelative:rockgame.console\\players\\imoves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91C2384B-DF09-4AAC-8B13-C5C5ADDE6F6F}|rockgame.console\\rockgame.console.csproj|c:\\users\\tflier\\source\\repos\\rockv2\\here-comes-rock-v2\\rockgame.console\\players\\yourplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91C2384B-DF09-4AAC-8B13-C5C5ADDE6F6F}|rockgame.console\\rockgame.console.csproj|solutionrelative:rockgame.console\\players\\yourplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91C2384B-DF09-4AAC-8B13-C5C5ADDE6F6F}|rockgame.console\\rockgame.console.csproj|c:\\users\\tflier\\source\\repos\\rockv2\\here-comes-rock-v2\\rockgame.console\\players\\iplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91C2384B-DF09-4AAC-8B13-C5C5ADDE6F6F}|rockgame.console\\rockgame.console.csproj|solutionrelative:rockgame.console\\players\\iplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91C2384B-DF09-4AAC-8B13-C5C5ADDE6F6F}|rockgame.console\\rockgame.console.csproj|c:\\users\\tflier\\source\\repos\\rockv2\\here-comes-rock-v2\\rockgame.console\\ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91C2384B-DF09-4AAC-8B13-C5C5ADDE6F6F}|rockgame.console\\rockgame.console.csproj|solutionrelative:rockgame.console\\ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TFlier\\source\\repos\\rockv2\\here-comes-rock-v2\\rockgame.console\\Program.cs",
+              "RelativeDocumentMoniker": "rockgame.console\\Program.cs",
+              "ToolTip": "C:\\Users\\TFlier\\source\\repos\\rockv2\\here-comes-rock-v2\\rockgame.console\\Program.cs",
+              "RelativeToolTip": "rockgame.console\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T06:51:50.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\TFlier\\source\\repos\\rockv2\\here-comes-rock-v2\\rockgame.console\\Game.cs",
+              "RelativeDocumentMoniker": "rockgame.console\\Game.cs",
+              "ToolTip": "C:\\Users\\TFlier\\source\\repos\\rockv2\\here-comes-rock-v2\\rockgame.console\\Game.cs",
+              "RelativeToolTip": "rockgame.console\\Game.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T06:50:52.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IMoves.cs",
+              "DocumentMoniker": "C:\\Users\\TFlier\\source\\repos\\rockv2\\here-comes-rock-v2\\rockgame.console\\Players\\IMoves.cs",
+              "RelativeDocumentMoniker": "rockgame.console\\Players\\IMoves.cs",
+              "ToolTip": "C:\\Users\\TFlier\\source\\repos\\rockv2\\here-comes-rock-v2\\rockgame.console\\Players\\IMoves.cs",
+              "RelativeToolTip": "rockgame.console\\Players\\IMoves.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T06:50:14.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "YourPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\TFlier\\source\\repos\\rockv2\\here-comes-rock-v2\\rockgame.console\\Players\\YourPlayer.cs",
+              "RelativeDocumentMoniker": "rockgame.console\\Players\\YourPlayer.cs",
+              "ToolTip": "C:\\Users\\TFlier\\source\\repos\\rockv2\\here-comes-rock-v2\\rockgame.console\\Players\\YourPlayer.cs",
+              "RelativeToolTip": "rockgame.console\\Players\\YourPlayer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T06:49:48.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\TFlier\\source\\repos\\rockv2\\here-comes-rock-v2\\rockgame.console\\Players\\IPlayer.cs",
+              "RelativeDocumentMoniker": "rockgame.console\\Players\\IPlayer.cs",
+              "ToolTip": "C:\\Users\\TFlier\\source\\repos\\rockv2\\here-comes-rock-v2\\rockgame.console\\Players\\IPlayer.cs",
+              "RelativeToolTip": "rockgame.console\\Players\\IPlayer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T06:49:22.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "rockgame.console",
+              "DocumentMoniker": "C:\\Users\\TFlier\\source\\repos\\rockv2\\here-comes-rock-v2\\rockgame.console\\rockgame.console.csproj",
+              "RelativeDocumentMoniker": "rockgame.console\\rockgame.console.csproj",
+              "ToolTip": "C:\\Users\\TFlier\\source\\repos\\rockv2\\here-comes-rock-v2\\rockgame.console\\rockgame.console.csproj",
+              "RelativeToolTip": "rockgame.console\\rockgame.console.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-27T06:48:35.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AI.cs",
+              "DocumentMoniker": "C:\\Users\\TFlier\\source\\repos\\rockv2\\here-comes-rock-v2\\rockgame.console\\AI.cs",
+              "RelativeDocumentMoniker": "rockgame.console\\AI.cs",
+              "ToolTip": "C:\\Users\\TFlier\\source\\repos\\rockv2\\here-comes-rock-v2\\rockgame.console\\AI.cs",
+              "RelativeToolTip": "rockgame.console\\AI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T06:48:51.954Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

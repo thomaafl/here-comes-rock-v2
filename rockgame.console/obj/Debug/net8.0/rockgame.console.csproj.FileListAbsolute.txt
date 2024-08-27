@@ -1,0 +1,15 @@
+C:\Users\TFlier\source\repos\rockv2\here-comes-rock-v2\rockgame.console\bin\Debug\net8.0\rockgame.console.exe
+C:\Users\TFlier\source\repos\rockv2\here-comes-rock-v2\rockgame.console\bin\Debug\net8.0\rockgame.console.deps.json
+C:\Users\TFlier\source\repos\rockv2\here-comes-rock-v2\rockgame.console\bin\Debug\net8.0\rockgame.console.runtimeconfig.json
+C:\Users\TFlier\source\repos\rockv2\here-comes-rock-v2\rockgame.console\bin\Debug\net8.0\rockgame.console.dll
+C:\Users\TFlier\source\repos\rockv2\here-comes-rock-v2\rockgame.console\bin\Debug\net8.0\rockgame.console.pdb
+C:\Users\TFlier\source\repos\rockv2\here-comes-rock-v2\rockgame.console\obj\Debug\net8.0\rockgame.console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TFlier\source\repos\rockv2\here-comes-rock-v2\rockgame.console\obj\Debug\net8.0\rockgame.console.AssemblyInfoInputs.cache
+C:\Users\TFlier\source\repos\rockv2\here-comes-rock-v2\rockgame.console\obj\Debug\net8.0\rockgame.console.AssemblyInfo.cs
+C:\Users\TFlier\source\repos\rockv2\here-comes-rock-v2\rockgame.console\obj\Debug\net8.0\rockgame.console.csproj.CoreCompileInputs.cache
+C:\Users\TFlier\source\repos\rockv2\here-comes-rock-v2\rockgame.console\obj\Debug\net8.0\rockgame.console.sourcelink.json
+C:\Users\TFlier\source\repos\rockv2\here-comes-rock-v2\rockgame.console\obj\Debug\net8.0\rockgame.console.dll
+C:\Users\TFlier\source\repos\rockv2\here-comes-rock-v2\rockgame.console\obj\Debug\net8.0\refint\rockgame.console.dll
+C:\Users\TFlier\source\repos\rockv2\here-comes-rock-v2\rockgame.console\obj\Debug\net8.0\rockgame.console.pdb
+C:\Users\TFlier\source\repos\rockv2\here-comes-rock-v2\rockgame.console\obj\Debug\net8.0\rockgame.console.genruntimeconfig.cache
+C:\Users\TFlier\source\repos\rockv2\here-comes-rock-v2\rockgame.console\obj\Debug\net8.0\ref\rockgame.console.dll

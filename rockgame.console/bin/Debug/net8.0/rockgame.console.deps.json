@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "rockgame.console/1.0.0": {
+        "runtime": {
+          "rockgame.console.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "rockgame.console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
