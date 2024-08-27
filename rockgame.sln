@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rockgame.console", "rockgame.console\rockgame.console.csproj", "{91C2384B-DF09-4AAC-8B13-C5C5ADDE6F6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rockgame.tests", "rockgame.tests\rockgame.tests.csproj", "{871F0F8B-5525-4E5E-A53B-D2B68B9F0989}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91C2384B-DF09-4AAC-8B13-C5C5ADDE6F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91C2384B-DF09-4AAC-8B13-C5C5ADDE6F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91C2384B-DF09-4AAC-8B13-C5C5ADDE6F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91C2384B-DF09-4AAC-8B13-C5C5ADDE6F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{871F0F8B-5525-4E5E-A53B-D2B68B9F0989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{871F0F8B-5525-4E5E-A53B-D2B68B9F0989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{871F0F8B-5525-4E5E-A53B-D2B68B9F0989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{871F0F8B-5525-4E5E-A53B-D2B68B9F0989}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
