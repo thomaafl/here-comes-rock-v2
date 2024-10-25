@@ -27,6 +27,7 @@ namespace rockgame.console
 
             bool choice = Choice();
 
+
             if (choice)
             {
                 do
