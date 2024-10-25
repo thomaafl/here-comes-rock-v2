@@ -1,7 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using rockgame.console.Players;
 using rockgame.console;
 
-Console.WriteLine("Hello, World!");
-
-Game game = new Game();
-game.Intro();
+class Program
+{
+    static void Main()
+    {
+        IPlayer player = new YourPlayer();
+        IPlayer computer = new AI();
+        Game game = new Game(player, computer);
+        game.Intro();
+    }
+}

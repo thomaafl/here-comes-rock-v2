@@ -1,13 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using rockgame.console.Players;
+using System;
+using System.Threading;
 
 namespace rockgame.console
 {
     public class Game
     {
+        private IPlayer player;
+        private IPlayer computer;
+        private string[] choices = { "R", "P", "S" };
+        private int wins = 0;
+        private int losses = 0;
+        private int ties = 0;
+
+        public Game(IPlayer player, IPlayer computer)
+        {
+            this.player = player;
+            this.computer = computer;
+        }
+
         public void Intro()
         {
             Console.WriteLine(" ---------------- Here comes ROCK ----------------\n");
@@ -16,31 +27,90 @@ namespace rockgame.console
 
             bool choice = Choice();
 
-            if (choice) Console.WriteLine("AI time!");
-            string move = PickYourMove1();
-            CountdownFrom3();
-            Console.WriteLine(move);
+            if (choice)
+            {
+                do
+                {
+                    int rounds = GetNumberOfRounds();
+                    for (int i = 0; i < rounds; i++)
+                    {
+                        Console.WriteLine($"Round {i + 1} of {rounds}");
+                        string playerMove = player.GetMove();
+                        if (playerMove == "EXIT")
+                        {
+                            return;
+                        }
+                        string computerMove = computer.GetMove();
+                        CountdownFrom3();
+                        Console.WriteLine($"Player chose: {ConvertMoveToFullName(playerMove)}");
+                        Console.WriteLine(GetMoveArt(playerMove));
+                        Console.WriteLine($"Computer chose: {ConvertMoveToFullName(computerMove)}");
+                        Console.WriteLine(GetMoveArt(computerMove));
+                        DetermineWinner(playerMove, computerMove);
+                        DisplayScore();
+                    }
+                    DisplayFinalScore();
+                } while (PlayAgain());
+            }
+            else
+            {
+                Console.WriteLine("Game ended by user.");
+            }
 
+            Console.WriteLine("Thanks for playing!");
         }
 
         public bool Choice()
         {
             Console.WriteLine("Play against the computer? (Y/N): ");
             string choice = Console.ReadLine();
-            if (choice == "Y")
+            if (choice.ToUpper() == "Y")
             {
                 return true;
             }
-            else if (choice == "N")
+            else if (choice.ToUpper() == "N")
             {
                 return false;
             }
             else
             {
                 Console.WriteLine("Wrong input...\n");
-                Choice(); // Use the result of the recursive call
+                return Choice(); // Use the result of the recursive call
             }
-            return false;
+        }
+
+        public int GetNumberOfRounds()
+        {
+            Console.WriteLine("Choose the number of rounds to play (1, 3, or 9): ");
+            string input = Console.ReadLine();
+            if (input == "1" || input == "3" || input == "9")
+            {
+                return int.Parse(input);
+            }
+            else
+            {
+                Console.WriteLine("Invalid input. Please choose 1, 3, or 9.");
+                return GetNumberOfRounds();
+            }
+        }
+
+        public bool PlayAgain()
+        {
+            Console.WriteLine("Do you want to play again? (Y/N): ");
+            string choice = Console.ReadLine();
+            if (choice.ToUpper() == "Y")
+            {
+                return true;
+            }
+            else if (choice.ToUpper() == "N")
+            {
+                return false;
+            }
+            else
+            {
+                Console.WriteLine("Wrong input...\n");
+                return PlayAgain(); // Use the result of the recursive call
+            }
         }
 
         public void CountdownFrom3()
@@ -53,29 +123,109 @@ namespace rockgame.console
             Console.WriteLine("Go!\n");
         }
 
-        public string PickYourMove1()
+        public void DetermineWinner(string playerMove, string computerMove)
         {
-            
-            Console.WriteLine("\n----------------------------------------------------\n");
-            Console.WriteLine("\n-----------------* Pick your move *-----------------\n");
-            Console.WriteLine("\n    (Rock - R)     (Paper - P)    (Scissors - S)    \n");
-            Console.WriteLine("----------------------------------------------------\n");
-
-            Console.WriteLine("Insert your choice here: ");
-            string yourchoice = Console.ReadLine();
-            Console.WriteLine("\n----------------------------------------------------\n");
-            yourchoice = yourchoice.ToUpper();
-            if (yourchoice == "R" || yourchoice == "P" || yourchoice == "S")
+            if (playerMove == computerMove)
             {
-                return yourchoice;
+                Console.WriteLine("It's a tie!");
+                ties++;
+            }
+            else if ((playerMove == "R" && computerMove == "S") ||
+                     (playerMove == "P" && computerMove == "R") ||
+                     (playerMove == "S" && computerMove == "P"))
+            {
+                Console.WriteLine("You win!");
+                wins++;
             }
             else
             {
-                Console.WriteLine("That was not a valid input, please try again ...");
-                return PickYourMove1();
+                Console.WriteLine("You lose!");
+                losses++;
             }
+        }
 
+        public void DisplayScore()
+        {
+            Console.WriteLine($"Score: Wins - {wins}, Losses - {losses}, Ties - {ties}");
+        }
 
+        public void DisplayFinalScore()
+        {
+            Console.WriteLine("\nFinal Score:");
+            Console.WriteLine($"Wins - {wins}, Losses - {losses}, Ties - {ties}");
+
+            if (wins > losses)
+            {
+                Console.WriteLine("Congratulations! You are the winner!");
+                Console.WriteLine(GetTrophyArt());
+            }
+            else if (losses > wins)
+            {
+                Console.WriteLine("The computer wins! Better luck next time.");
+                Console.WriteLine(GetTrophyArt());
+            }
+            else
+            {
+                Console.WriteLine("It's a tie overall!");
+            }
+        }
+
+        private string ConvertMoveToFullName(string move)
+        {
+            return move switch
+            {
+                "R" => "rock",
+                "P" => "paper",
+                "S" => "scissors",
+                _ => "unknown"
+            };
+        }
+
+        private string GetMoveArt(string move)
+        {
+            return move switch
+            {
+                "R" => @"
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+",
+                "P" => @"
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+",
+                "S" => @"
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+",
+                _ => ""
+            };
+        }
+
+        private string GetTrophyArt()
+        {
+            return @"
+       ___________
+      '._==_==_=_.'
+      .-\:      /-.
+     | (|:.     |) |
+      '-|:.     |-'
+        \::.    /
+         '::. .'
+           ) (
+         _.' '._
+        '''''''''";
         }
     }
 }

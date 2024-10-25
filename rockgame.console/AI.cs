@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using rockgame.console.Players;
+using System;
 
-namespace rockgame.console
+public class AI : IPlayer
 {
-    internal class AI
+    private Random random = new Random();
+    private string[] choices = { "R", "P", "S" };
+
+    public string GetMove()
     {
+        return choices[random.Next(choices.Length)];
     }
 }

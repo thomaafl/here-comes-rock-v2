@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace rockgame.console.Players
 {
-    internal class IPlayer
+    public interface IPlayer
     {
+        string GetMove();
     }
 }

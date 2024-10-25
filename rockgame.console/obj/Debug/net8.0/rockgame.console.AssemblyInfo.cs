@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("rockgame.console")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3662b689ca339e382ddf5331e1182258dbace85")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3e133b8a1ae4fe9f17da3730712e476a6707f5d")]
 [assembly: System.Reflection.AssemblyProductAttribute("rockgame.console")]
 [assembly: System.Reflection.AssemblyTitleAttribute("rockgame.console")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
