@@ -100,6 +100,9 @@ namespace rockgame.console
             string choice = Console.ReadLine();
             if (choice.ToUpper() == "Y")
             {
+                wins = 0;
+                ties = 0;
+                losses = 0;
                 return true;
             }
             else if (choice.ToUpper() == "N")
